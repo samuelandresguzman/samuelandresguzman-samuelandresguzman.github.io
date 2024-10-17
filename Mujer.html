@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Moda</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 1.5em 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        main {
+            padding: 40px 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #4A90E2;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .categoria {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+
+        .categoria div {
+            width: 48%;
+            text-align: center;
+        }
+
+        .categoria img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .productos {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+
+        .producto {
+            width: 30%;
+            text-align: center;
+        }
+
+        .producto img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            background-color: #f4f4f9;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .producto p {
+            margin-top: 10px;
+            color: #4A90E2;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #4A90E2;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .accesorios {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0;
+        }
+
+        .accesorio {
+            width: 30%;
+            text-align: center;
+        }
+
+        .accesorio img {
+            width: 100%;
+            max-width: 150px;
+            height: auto;
+            background-color: #f4f4f9;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contacto-formulario {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .contacto-formulario input, 
+        .contacto-formulario textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 15px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contacto-formulario button {
+            padding: 15px;
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        .contacto-formulario button:hover {
+            background-color: #357ABD;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .producto img:hover,
+        .accesorio img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Moda</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nuevas-llegadas.html">Nuevas Llegadas</a></li>
+                <li><a href="hombre.html">Hombre</a></li>
+                <li><a href="mujer.html">Mujer</a></li>
+                <li><a href="accesorios.html">Accesorios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Moda Mujer</h2>
+    <div class="productos">
+        <div class="producto">
+            <img src="imagenes/vestido_verano.png" alt="Producto 7">
+            <p>Vestido de Verano - $220,000 COP</p>
+        </div>
+        <div class="producto">
+            <img src="imagenes/abrigo_mujer.png" alt="Producto 8">
+            <p>Abrigo Largo - $390,000 COP</p>
+        </div>
+        <div class="producto">
+            <img src="imagenes/blusa_seda.png" alt="Producto 9">
+            <p>Blusa de Seda - $120,000 COP</p>
+        </div>
+    </div>
+</section>
+    
